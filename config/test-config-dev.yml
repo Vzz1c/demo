@@ -1,4 +1,4 @@
-testName: aaa
+testName: asdfasd
 zuul:
   routes:
     api-a:
@@ -9,8 +9,3 @@ zuul:
       ### 以 /api-order/访问转发到订单服务
       path: /testConfig/**
       serviceId: test-config
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"

@@ -1,4 +1,4 @@
-testName=000
+testName: 000
 zuul:
   routes:
     api-a:

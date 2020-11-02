@@ -3,8 +3,8 @@ zuul:
   routes:
     api-a:
       ### 以 /api-member/访问转发到会员服务
-      path: /configSserver/**
-      serviceId: config-server
+      path: /memberServer/**
+      serviceId: member-server
     api-b:
       ### 以 /api-order/访问转发到订单服务
       path: /testConfig/**

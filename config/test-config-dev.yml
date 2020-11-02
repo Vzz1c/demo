@@ -8,4 +8,4 @@ zuul:
     api-b:
       ### 以 /api-order/访问转发到订单服务
       path: /testConfig/**
-      serviceId: test-config
+      serviceId: AAA-config
